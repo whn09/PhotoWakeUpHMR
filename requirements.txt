@@ -2,10 +2,11 @@
 pip>=9.0
 scipy
 numpy
-opendr
+opendr==0.77
 matplotlib
 scikit-image
 deepdish>=0.3
 opencv-python
 absl-py
 ipdb
+backports.weakref; python_version<"3"
